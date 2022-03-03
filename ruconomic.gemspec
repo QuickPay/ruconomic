@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Tonni Tølbøll Lund Aagesen"]
   spec.email         = ["support@quickpay.net"]
   spec.summary       = %q{Lightweight, speedy and easy-to-use ruby wrapper for the e-conomic.com SOAP web service}
-  spec.homepage      = "https://github.com/coherify/ruconomic"
+  spec.homepage      = "https://github.com/QuickPay/ruconomic"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + [".gitignore", "Gemfile", "Rakefile", "README.md", "ruconomic.gemspec"]
