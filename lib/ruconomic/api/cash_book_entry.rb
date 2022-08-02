@@ -273,8 +273,8 @@ module Ruconomic
             data.add_optional('BankPaymentCreditorId', entry_data.dig(:bank_payment_creditor_id))
             data.add_optional('BankPaymentCreditorInvoiceId', entry_data.dig(:bank_payment_creditor_invoice_id))
             data.add_handle('CapitaliseHandle', entry_data.dig(:capitalise_handle, :number))
-            data.add('StartDate', entry_data.dig(:start_date))
-            data.add('EndDate', entry_data.dig(:end_date))
+            data.add_optional('StartDate', entry_data.dig(:start_date))
+            data.add_optional('EndDate', entry_data.dig(:end_date))
             data.add_handle('EmployeeHandle', entry_data.dig(:employee_handle, :number))
           end
         end
