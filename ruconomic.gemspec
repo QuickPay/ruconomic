@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
-  gem.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com/QuickPay"
+  spec.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com/QuickPay"
 
   spec.add_runtime_dependency "curb"
   spec.add_runtime_dependency "libxml-ruby"
